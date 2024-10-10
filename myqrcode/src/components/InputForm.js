@@ -9,7 +9,7 @@ const InputForm = () => {
       e.preventDefault();
   
       // Send the URL to the backend
-      const response = await fetch('http://localhost:5000/generate-qr', {
+      const response = await fetch('https://qr-code-generator-3le3.onrender.com/generate-qr', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

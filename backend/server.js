@@ -9,6 +9,11 @@ const app = express();
 app.use(cors());
 const PORT = 5000;
 
+const corsOptions = {
+  origin: 'https://qr-code-generator-eight-alpha.vercel.app', // Vercel frontend URL
+};
+
+app.use(cors(corsOptions));
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
@@ -33,5 +38,5 @@ app.post('/generate-qr',(req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is runnings`);
 });
