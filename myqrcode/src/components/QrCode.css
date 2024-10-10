@@ -1,0 +1,17 @@
+.qrcode_handler{
+    background: rgb(213, 152, 178);
+    display: flex;
+    align-self: flex-start;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 100px;
+    border-radius:20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    
+   
+   
+  
+
+
+}
