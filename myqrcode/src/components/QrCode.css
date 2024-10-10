@@ -15,3 +15,30 @@
 
 
 }
+@media only screen and (max-width: 1024px) {
+    .qrcode_handler {
+        margin-right: 50px;
+        width: 80%;
+        border-radius: 15px;
+    }
+}
+
+/* For mobile phones (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .qrcode_handler {
+        margin-right: 20px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+/* For small mobile screens (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .qrcode_handler {
+        margin-right: 10px;
+        margin-top: 5px;
+        width: 100%;
+        border-radius: 8px;
+        padding: 10px;
+    }
+}
